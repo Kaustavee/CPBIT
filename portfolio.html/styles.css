@@ -1,0 +1,49 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color:bisque;
+    padding: 1rem;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightsalmon;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color:darkslategrey;
+    color: white;
+}
